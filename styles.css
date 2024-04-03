@@ -1,0 +1,164 @@
+/* Main sections of the styling */
+
+body{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto;
+    min-height: 100vh;
+    background-color: #1F2937;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content{
+    flex: 1;
+}
+
+.content2{
+    flex:1;
+}
+
+.footer{
+    flex:0.8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottom{
+    flex: 0.2;
+}
+
+/*More detailed parts of the styling*/
+
+.intro,
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-right: 10px;
+    display: inline;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.intro{
+    display: flex;
+    flex-direction:row;
+}
+
+.desc{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.title_desc{
+    max-width: 50%;
+}
+
+.moretext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup_button{
+    font-size: 20px;
+    color: #E5E7EB;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3882F6;
+    border-radius: 15px;
+    font-weight: extra-bold;
+}
+
+img{
+    align-content: center;
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    padding: 100px 80px;
+}
+
+.content,
+.footer{
+    background-color: white;
+    min-width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.heading{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 10px;
+}
+
+.all_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    justify-content: center;
+    min-width: 100%;
+
+}
+
+.contenttext{
+    font-size: 24px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 10px 8px;
+    border: white;
+}
